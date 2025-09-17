@@ -1,13 +1,11 @@
 import random
 
-# Máy tính chọn ngẫu nhiên 1 số từ 1 đến 100
 secret_number = random.randint(1, 100)
 guess = None
 
 print("Chào mừng bạn đến với game Đoán số!")
 print("Hãy thử đoán số từ 1 đến 100.")
 
-# Vòng lặp cho đến khi đoán đúng
 while guess != secret_number:
     guess = int(input("Nhập số bạn đoán: "))
 
